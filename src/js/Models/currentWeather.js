@@ -3,7 +3,7 @@ import axios from "axios";
 async function getWeatherLocation(lat,lon,e){
 
     try{
-        const data = await axios(`http://api.openweathermap.org/data/2.5/${e}?APPID=yourkey&lat=${lat}&lon=${lon}&units=imperial`);
+        const data = await axios(`http://api.openweathermap.org/data/2.5/${e}?APPID=beac49ede1be043d3509a4d55c800063&lat=${lat}&lon=${lon}&units=imperial`);
 
         return data;
     }

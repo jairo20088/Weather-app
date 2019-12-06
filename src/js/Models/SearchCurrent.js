@@ -3,7 +3,7 @@ import axios from "axios";
 async function currentWeather(e,input){
 
     try{
-        const data = await axios(`http://api.openweathermap.org/data/2.5/${e}?APPID=yourkey&q=${input}&units=imperial`);
+        const data = await axios(`http://api.openweathermap.org/data/2.5/${e}?APPID=beac49ede1be043d3509a4d55c800063&q=${input}&units=imperial`);
     
         return data;
     }
