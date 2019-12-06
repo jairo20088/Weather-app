@@ -1,0 +1,33 @@
+.weather-container{
+    color: #fff;
+    position: absolute;
+    padding: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+    text-align: center;
+    width: 48rem;
+    display: none;
+
+    @include respond(tab-land){
+        width: 500px;
+    }
+    @include respond(phone){
+        width: 100%;
+        padding: 0;
+    }
+   
+
+    
+}
+.heading{
+    margin-bottom: 1.5rem;
+    &__date{
+        font-size:1.5rem;
+    }
+    &__city{
+        font-size: 6rem;
+        
+    }
+    
+}
