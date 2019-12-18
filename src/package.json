@@ -7,6 +7,7 @@
     "compile:sass": "node-sass ./sass/main.scss ../dist/css/style.css",
     "watch:sass": "node-sass ./sass/main.scss ../dist/css/style.css -w",
     "compress": "node-sass ../dist/css/style.css ../dist/css/style.css --output-style compressed",
+    
     "build": "webpack --mode production",
     "dev": "webpack --mode development -w",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' ../dist/css/style.css -o ../dist/css/style.css"

@@ -7,7 +7,7 @@ import loader from "./View/loader";
 
 
 
-if(Modernizr.geolocation){
+if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(success,fail);
 } 
  async function success(position){
